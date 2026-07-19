@@ -13,6 +13,6 @@ Visual Studio Code Info:
 * V8: 14.8.178.38-electron.0
 * OS: Windows_NT x64 10.0.26200
 
-Development Language: Python 3.13
+Development Language: Python 3.14
 
 Sources Referened: [Python Web Scraping Tutorial](https://www.geeksforgeeks.org/python/python-web-scraping-tutorial/)
