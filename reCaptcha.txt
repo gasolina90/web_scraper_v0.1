@@ -1,0 +1,10 @@
+Following is the Google reCaptcha keys for v2 that we use
+only for testing purposes.
+
+Copy and paste it wherever necessary
+
+Site key: 6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI
+Secret key: 6LeIxAcTAAAAAGG-vFI1TnRWxMZNFuojJ4WifJWe
+
+The above keys are obtained from the link below
+https://developers.google.com/recaptcha/docs/faq#id-like-to-run-automated-tests-with-recaptcha.-what-should-i-do
