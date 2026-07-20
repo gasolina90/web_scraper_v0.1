@@ -1,6 +1,6 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.webdriver.common.service import Service
+from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 import time
 
@@ -10,15 +10,16 @@ def main():
     # Set up Chrome options
     options = webdriver.ChromeOptions()
     options.add_argument("--headless")
-    options.add_argument("no-sandbox")
-    options.add_argument("--disable-dev-shm-usage")
+    # options.add_argument("no-sandbox")
+    # options.add_argument("--disable-dev-shm-usage")
 
-    # Use a Service object
-    service = Service(ChromeDriverManager().install())
+    # # Use a Service object
+    # service = Service(ChromeDriverManager().install())
 
     for page in range(1,3):
-        # Init driver
-        driver = webdriver.Chrome(service=service, options=options)
+        # # Init driver
+        # driver = webdriver.Chrome(service=service, options=options)
+        driver = webdriver.Chrome(options=options)
 
         # Load the URL
         url = "https://webscraper.io/test-sites/e-commerce/static/computers/laptops?page=%7Bpage%7D"
